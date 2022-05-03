@@ -1,27 +1,31 @@
 const Experience = () => {
     return (
         <div className="experience">
-            <h2>Experience</h2>
+            <h2 className="text-glow">Experience</h2>
 
             <ul>
                 <li>
-                    <i>Clayton State University</i>, 2014-2018
+                    <i>Weber State University</i> - Computer Engineering, 2018-2021
                     <ul>
-                        <li>Graduated with 3.00 GPA</li>
+                        <li>Graduated with High Honors</li>
+                        <li>Courses on Object Oriented Programming, Automated Testing, Application Design Theory and Low-level embedded systems</li>                    
                     </ul>
                 </li>
                 <li>
-                    <i>TechFlow</i> - <strong>Blockchain Developer Intern</strong>, 2018-2019
+                    <i>TNT</i> - Co-founder/Lead Developer, 2020-Present
                     <ul>
-                        <li>Studied DApp development</li>
-                        <li>Assisted Research &amp; Development on Web3 Products</li>
+                        <li>
+                            Overview and develop control system for window tint that can change its opacity <strong>from idea concept to production</strong>.
+                        </li>
+                        <li> Lead team of 3 people to create control system software using C & <strong>Python</strong>. </li>
+
                     </ul>
                 </li>
                 <li>
-                    <i>SpiderChain</i> - <strong>Blockchain Developer</strong>, 2019-2022
+                    <i>Weber State University</i> - Research Assistant, 2020-2021
                     <ul>
-                        <li>Contributed to smart contract development on client's platform</li>
-                        <li>Peer reviewed &amp; Audited Solidity code</li>
+                        <li>Developed motion detection algorithms given video data of a ball moving through the frame using <strong>Python</strong> machine learning libraries.</li>
+                        <li>Used <strong>git</strong> to collaborate on software system</li>
                     </ul>
                 </li>
             </ul>
