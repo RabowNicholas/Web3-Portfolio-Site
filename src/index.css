@@ -8,7 +8,7 @@
 
 body {
   margin: 0;
-  padding:  1rem;
+  padding: 1rem;
   font-family: "Work Sans", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -16,7 +16,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #1D1E22;
   color: white;
-
 }
 
 code {
@@ -28,6 +27,7 @@ code {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .text-glow {
   text-shadow: 0 0 80px rgb(192 219 255 / 35%), 0 0 32px rgb(65 120 255 / 24%);
 }
@@ -38,10 +38,8 @@ code {
   -webkit-text-fill-color: transparent;
 }
 
-
 /* ------------------------------------------------------ */
 /* -- Navigation -- */
-
 /* header {
   display: flex;
   justify-content: space-between;
@@ -49,7 +47,6 @@ code {
 
   padding: 0 25px;
 } */
-
 .header,
 .about,
 .projects,
@@ -61,21 +58,17 @@ code {
 
 /* ------------------------------------------------------ */
 /* -- Header -- */
-
 .header {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-
   text-align: center;
 }
 
 .header img {
   max-width: 300px;
   height: auto;
-
   margin: 20px auto;
-
   border-radius: 50%;
 }
 
@@ -98,7 +91,6 @@ code {
 
 /* ------------------------------------------------------ */
 /* -- About -- */
-
 .about h2 {
   font-size: 42px;
   margin: 25px auto;
@@ -112,7 +104,6 @@ code {
 
 /* ------------------------------------------------------ */
 /* -- Projects -- */
-
 .projects h2 {
   font-size: 42px;
   margin: 25px auto;
@@ -135,21 +126,16 @@ code {
 .projects__card {
   display: flex;
   flex-direction: column;
-
-
-  height:  420px;
+  height: 420px;
   max-width: 350px;
-
   padding: 20px;
-
   border: 1px solid white;
   border-radius: 8px;
-
   transition: 0.4s ease-out;
 }
 
 .projects__card:hover {
-  height: 520px;
+  height: 520pxnpm run start;
 }
 
 .projects__card h3 {
@@ -167,7 +153,6 @@ code {
   width: 100%;
   max-height: 150px;
   margin: 20px 0 10px;
-
   border-radius: 8px;
 }
 
@@ -176,24 +161,24 @@ code {
   margin: 10px 10px 0;
 }
 
-.project__links{
+.project__links {
   padding: 0px 40px;
 }
 
-.hidden-content{
+.hidden-content {
   visibility: hidden;
-  transition: 0.2s cubic-bezier(1,0.1,0,1);
-  opacity:  0;
+  transition: 0.2s cubic-bezier(1, 0.1, 0, 1);
+  opacity: 0;
 }
 
-.projects__card:hover .hidden-content{
+.projects__card:hover .hidden-content {
   margin-top: 30px;
   visibility: visible;
   opacity: 1;
 }
+
 /* ------------------------------------------------------ */
 /* -- Education/Experience -- */
-
 .experience h2 {
   font-size: 42px;
   margin: 25px auto;
@@ -211,7 +196,6 @@ code {
 
 /* ------------------------------------------------------ */
 /* -- Social Media -- */
-
 .social h2 {
   font-size: 42px;
   margin: 25px auto;
@@ -243,13 +227,12 @@ code {
   border-radius: 4px;
   transition: all 0.3s ease;
   border-radius: 50px;
-
   background-image: linear-gradient(to right, rgb(1 134 218), rgb(182 49 167));
   border: 0;
   color: rgba(var(--text-color));
 }
 
 .button:hover {
-    transition: all 0.3s ease;
-    box-shadow: rgba(111, 76, 255, 0.5) 0px 0px 20px 0px;
+  transition: all 0.3s ease;
+  box-shadow: rgba(111, 76, 255, 0.5) 0px 0px 20px 0px;
 }
