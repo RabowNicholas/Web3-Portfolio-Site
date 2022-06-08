@@ -22,6 +22,7 @@ const Projects = () => {
             <a
               href="https://www.loom.com/share/fe93672c5f6d44cfb829213d7836403d"
               target="_blank"
+              rel="noreferrer"
               className="button"
             >
               Demo
@@ -29,6 +30,7 @@ const Projects = () => {
             <a
               href="https://github.com/RabowNicholas/Casino"
               target="_blank"
+              rel="noreferrer"
               className="button"
             >
               Code
@@ -55,6 +57,7 @@ const Projects = () => {
             <a
               href="https://www.loom.com/share/454b5f81bc83479a90d9b14393d6163e"
               target="_blank"
+              rel="noreferrer"
               className="button"
             >
               Demo
@@ -62,6 +65,7 @@ const Projects = () => {
             <a
               href="https://github.com/RabowNicholas/NFT-Charity-Minting-App"
               target="_blank"
+              rel="noreferrer"
               className="button"
             >
               Code
@@ -88,6 +92,7 @@ const Projects = () => {
             <a
               href="https://www.loom.com/share/32a3278379104a978ba9e53b7755c6e5"
               target="_blank"
+              rel="noreferrer"
               className="button"
             >
               Demo
@@ -95,6 +100,7 @@ const Projects = () => {
             <a
               href="https://github.com/RabowNicholas/Token-Swap-App"
               target="_blank"
+              rel="noreferrer"
               className="button"
             >
               Code
